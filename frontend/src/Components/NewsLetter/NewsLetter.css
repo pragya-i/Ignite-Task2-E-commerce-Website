@@ -1,0 +1,147 @@
+.newsletter{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-top: 100px;
+    background: linear-gradient(180deg,#fde1ff , #e1ffea22 60%);
+    gap:30px;
+}
+.newsletter h1{
+    color: #454545;
+    font-size: 38px;
+    font-weight: 600;
+}
+.newsletter p{
+   color: #454545;
+   font-size: 15px;
+}
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+  color: #616161;
+    font-size: 16px;
+    font-family: Poppins;
+
+}
+.newsletter button{
+   width: 170px;
+   height: 50px;
+   border-radius: 80px;
+   background: black;
+   color: white;
+   font-size: 15px;
+   cursor: pointer;
+}
+@media(max-width:1115px){
+    .newsletter{
+        padding: 0px 70px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .newsletter h1{
+        font-size: 34px;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    .newsletter div{
+        width: 600px;
+        height: 60px;
+    }
+    .newsletter div input{
+        width: 400px;
+    }
+    .newsletter button{
+      width: 160px;
+      height: 48px;
+      font-size: 14px;
+    }
+}
+@media(max-width:1028px){
+    .newsletter{
+        margin-bottom: 100px;
+    }
+    .newsletter h1{
+        font-size: 28px;
+    }
+    .newsletter p{
+        font-size: 13px;
+    }
+    .newsletter div{
+        width: 550px;
+        height: 55px;
+    }
+    .newsletter div input{
+        width: 380px;
+    }
+    .newsletter button{
+      width: 150px;
+      height: 48px;
+      font-size: 14px;
+    }
+}
+@media(max-width:748px){
+    .newsletter{
+        margin-bottom: 80px;
+        height: 35vh;
+    }
+    .newsletter h1{
+        font-size: 24px;
+    }
+    .newsletter p{
+        font-size: 12px;
+    }
+    .newsletter div{
+        width: 500px;
+        height: 50px;
+    }
+    .newsletter div input{
+        width: 340px;
+        font-size: 14px;
+    }
+    .newsletter button{
+      width: 130px;
+      height: 42px;
+      font-size: 13px;
+    }
+}
+@media(max-width:500px){
+    .newsletter{
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        gap:15px;
+    }
+    .newsletter h1{
+        font-size: 28px;
+    }
+    .newsletter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .newsletter div{
+        width: 290px;
+       
+    }
+    .newsletter div input{
+        width: 280px;
+    } 
+}
